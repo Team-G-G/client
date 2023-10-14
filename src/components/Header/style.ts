@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import Link from "next/link";
 
-export const HeaderWrapper = styled.div`
+export const 헤더부분 = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,17 +10,16 @@ export const HeaderWrapper = styled.div`
   border-bottom: 1px solid #eaeaea;
 `;
 
-export const HeaderItems = styled.div`
+export const 헤더아이템들 = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 3rem;
 `;
 
-export const HeaderItem = styled.div`
+export const 헤더아이템 = styled.div`
   display: flex;
   align-items: center;
-  gap: 0.5rem;
 `;
 
 export const 링크 = styled(Link)`

@@ -17,10 +17,7 @@ export const 헤더아이템들 = styled.div`
   gap: 3rem;
 `;
 
-export const 헤더아이템 = styled.div`
-  display: flex;
-  align-items: center;
-`;
+export const 헤더아이템 = styled.span``;
 
 export const 링크 = styled(Link)`
   color: black;

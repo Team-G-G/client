@@ -8,7 +8,7 @@ const 헤더 = () => {
     <>
       <스타일.헤더부분>
         <스타일.링크 href="/">
-          <Image src={로고} alt="logo" height={40} width={80} />
+          <Image src={로고} alt="로고" height={40} width={80} />
         </스타일.링크>
         <스타일.헤더아이템들>
           <스타일.링크 href="/talk">

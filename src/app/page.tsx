@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "@/components/Header";
 
-const Home = () => {
+const 홈 = () => {
   return (
     <>
       <Header />
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default 홈;
